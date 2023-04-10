@@ -4,8 +4,8 @@ import {
   AiOutlineHome,
   AiOutlineProject,
   AiOutlineMail,
+  AiOutlineDownload, // Importar el icono de descarga
 } from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 
 const Sidenav = () => {
@@ -47,11 +47,13 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNav}
-            href="#main"
+            href="https://drive.google.com/file/d/14quILgT7fpniOiHSn2dvw41bgPCiqRFK/view?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <BsPerson size={20} />
-            <span className="pl-4">Clases</span>
+            <AiOutlineDownload size={20} />
+            <span className="pl-4">Descargar CV</span>
           </a>
           <a
             onClick={handleNav}
@@ -93,10 +95,10 @@ const Sidenav = () => {
             href="https://drive.google.com/file/d/14quILgT7fpniOiHSn2dvw41bgPCiqRFK/view?usp=share_link"
             title="Descargar CV"
             target="_blank"
-            
+            rel="noreferrer"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <BsPerson size={20} />
+            <AiOutlineDownload size={20} />
           </a>
 
           <a
