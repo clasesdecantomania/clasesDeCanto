@@ -8,9 +8,9 @@ import {
 
 const Main = () => {
   return (
-    <div id='main' className='flex flex-col justify-center items-center h-screen'>
+    <div id='main'>
       <img
-        className='flex-grow flex-shrink-0 object-cover w-full h-auto'
+        className='w-full h-screen object-cover object-left scale-x-[-1]'
         src='https://i.postimg.cc/4y6KPRRY/313994861-10226718918975020-3744391805926796704-n.jpg'
         alt='/'
       />
@@ -37,14 +37,14 @@ const Main = () => {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <a href='https://www.facebook.com/profile.php?id=100063654342475' target='_blank' rel='noopener noreferrer'>
-              <FaFacebookF className='cursor-pointer' size={20}/>
+          <a href='https://www.facebook.com/profile.php?id=100063654342475' target='_blank' rel='noopener noreferrer'>
+            <FaFacebookF className='cursor-pointer' size={20}/>
             </a>
             <a href='https://www.instagram.com/brian_alonsovolarich/' target='_blank' rel='noopener noreferrer'>
               <FaInstagram className='cursor-pointer' size={20}/>
             </a>
             <a href='https://drive.google.com/file/d/14quILgT7fpniOiHSn2dvw41bgPCiqRFK/view?usp=share_link' target='_blank' rel='noopener noreferrer'>
-              <FaLink className='cursor-pointer' size={20}/>
+            <FaLink className='cursor-pointer' size={20}/>
             </a>
           </div>
         </div>
