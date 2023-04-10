@@ -8,9 +8,9 @@ import {
 
 const Main = () => {
   return (
-    <div id='main'>
+    <div id='main' >
       <img
-        className='w-full h-screen object-cover object-left scale-x-[-1]'
+        className='w-full h-screen object-cover object-left rotate-y-180 mx-auto'
         src='https://i.postimg.cc/4y6KPRRY/313994861-10226718918975020-3744391805926796704-n.jpg'
         alt='/'
       />
