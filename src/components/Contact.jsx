@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className='py-1 text-4xl font-bold text-center text-[#001b5e]'>
         Contacto
       </h1>
-      <form action='https://getform.io/f/17e16959-831c-498d-ab4f-f495bcf16a23' method='POST' encType='multipart/form-data'>
+      <form action='https://getform.io/f/772ccbb2-abfc-4656-aea1-428e8eccaaa4' method='POST' encType='multipart/form-data'>
       <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
   <div className='flex flex-col'>
     <label className='uppercase text-sm py-2'>Nombre</label>
