@@ -10,12 +10,12 @@ const Main = () => {
   return (
     <div id='main' >
       <img
-        className='w-full h-screen object-cover object-left rotate-y-180 mx-auto'
-        src='https://i.postimg.cc/4y6KPRRY/313994861-10226718918975020-3744391805926796704-n.jpg'
+        className=' w-full h-screen object-cover object-left rotate-y-180 mx-auto  '
+        src='https://i.postimg.cc/fyrsxSS5/clasesdecanto.png'
         alt='/'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
-        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center mt-[30vh]'>
+        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center mt-[30vh]'>
           <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Brian Alonso Volarich</h1>
           <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>
             Clases de 
