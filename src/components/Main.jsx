@@ -1,10 +1,9 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import {
-  FaTwitter,
   FaFacebookF,
   FaInstagram,
-  FaLinkedinIn,
+  FaLink,
 } from 'react-icons/fa';
 
 const Main = () => {
@@ -12,24 +11,23 @@ const Main = () => {
     <div id='main'>
       <img
         className='w-full h-screen object-cover object-left scale-x-[-1]'
-        src='https://images.unsplash.com/photo-1522591755584-8ef01cdf743b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+        src='https://i.postimg.cc/4y6KPRRY/313994861-10226718918975020-3744391805926796704-n.jpg'
         alt='/'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
-        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I´m a Maximiliano</h1>
+        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center mt-[30vh]'>
+          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Brian Alonso Volarich</h1>
           <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>
-            I´m a
+            Clases de 
             <TypeAnimation
               sequence={[
-                'Developer', // Types 'One'
+                'Canto', // Types 'One'
                 2000, // Waits 1s
-                'Coder', // Deletes 'One' and types 'Two'
+                'Música', // Deletes 'One' and types 'Two'
                 2000, // Waits 2s
-                'Tech Enthusiast', // Types 'Three' without deleting 'Two'
+                'Dirección Coral', // Types 'Three' without deleting 'Two'
                 2000,
                 () => {
-                  console.log('Sequence completed'); // Place optional callbacks anywhere in the array
                 },
               ]}
               wrapper='span'
@@ -39,10 +37,15 @@ const Main = () => {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <FaTwitter className='cursor-pointer' size={20}/>
+          <a href='https://www.facebook.com/profile.php?id=100063654342475' target='_blank' rel='noopener noreferrer'>
             <FaFacebookF className='cursor-pointer' size={20}/>
-            <FaInstagram className='cursor-pointer' size={20}/>
-            <FaLinkedinIn className='cursor-pointer' size={20}/>
+            </a>
+            <a href='https://www.instagram.com/brian_alonsovolarich/' target='_blank' rel='noopener noreferrer'>
+              <FaInstagram className='cursor-pointer' size={20}/>
+            </a>
+            <a href='https://www.instagram.com/brian_alonsovolarich/' target='_blank' rel='noopener noreferrer'>
+            <FaLink className='cursor-pointer' size={20}/>
+            </a>
           </div>
         </div>
       </div>
