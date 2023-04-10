@@ -43,7 +43,7 @@ const Main = () => {
             <a href='https://www.instagram.com/brian_alonsovolarich/' target='_blank' rel='noopener noreferrer'>
               <FaInstagram className='cursor-pointer' size={20}/>
             </a>
-            <a href='https://www.instagram.com/brian_alonsovolarich/' target='_blank' rel='noopener noreferrer'>
+            <a href='https://drive.google.com/file/d/14quILgT7fpniOiHSn2dvw41bgPCiqRFK/view?usp=share_link' target='_blank' rel='noopener noreferrer'>
             <FaLink className='cursor-pointer' size={20}/>
             </a>
           </div>

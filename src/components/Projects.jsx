@@ -12,11 +12,21 @@ const Projects = () => {
         Geleria de imagenes
       </h1>
       <p className="text-center py-8">
-        ¿Te gustaría aprender a cantar y desarrollar tu técnica vocal? En
-        nuestro centro de enseñanza musical en Merlo zona oeste ofrecemos clases
-        de canto para todos los niveles, desde principiantes hasta avanzados.
-        Nuestros profesores altamente capacitados te ayudarán a mejorar tu voz y
-        descubrir todo tu potencial artístico.
+        Soy un cantante lírico y docente de canto con amplia experiencia en
+        la enseñanza de técnica y repertorio. Mi formación en el Conservatorio
+        Alberto Ginastera de Morón y el trabajo con renombrados profesores de
+        canto como Santiago Sirur, Sergio Giai, Cesar Tello y Gabriel Astorga,
+        me han brindado valiosas herramientas técnicas y de interpretación.
+        Además, he participado en conciertos líricos y montajes de musicales, lo
+        que me ha permitido seguir creciendo como artista y ahora, aplico todos
+        mis conocimientos para ayudar a mis estudiantes a descubrir y potenciar
+        sus habilidades vocales. Si buscas alcanzar tu máximo potencial vocal y
+        desarrollar todo tu talento artístico, ¡estás en el lugar adecuado! Con
+        mi enfoque personalizado y alentador, te guiaré para superar tus
+        limitaciones y alcanzar tus objetivos en un ambiente amigable y seguro.
+        Únete a mi comunidad de aprendizaje musical y descubre todo lo que
+        puedes lograr con tu voz. ¡Comienza hoy mismo tu camino hacia el éxito
+        vocal!
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem img={jorobadodeparis} title="Jorobado de Paris" />
