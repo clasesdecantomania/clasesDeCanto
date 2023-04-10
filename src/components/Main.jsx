@@ -11,7 +11,7 @@ const Main = () => {
     <div id='main' >
       <img
         className=' w-full h-screen object-cover object-left rotate-y-180 mx-auto  '
-        src='https://i.postimg.cc/fyrsxSS5/clasesdecanto.png'
+        src='https://i.postimg.cc/SNkK631z/clases-Canto.png'
         alt='/'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
