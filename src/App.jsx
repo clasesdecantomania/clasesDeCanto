@@ -22,7 +22,7 @@ function App() {
         <meta name="description" content={pageDescription} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
-        <meta property="og:image" content={shareImage} />
+        <meta property="og:image" content="https://clases-de-canto.netlify.app/src/assets/briancanto.webp" />
         <meta property="og:image:secure_url" content={shareImage} />
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
